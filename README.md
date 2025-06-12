@@ -16,9 +16,9 @@ The exercises will guide the student through containerizing and connecting the d
 flowchart TD
     subgraph "Exercise Plan"
         direction LR
-        E1["1. Containerize the Backend"] --> E2["2. Add a Database"];
-        E2 --> E3["3. Containerize the Frontend"];
-        E3 --> E4["4. Connect Everything with Docker Compose"];
+        E1["1 . Containerize the Backend"] --> E2["2 . Add a Database"];
+        E2 --> E3["3 . Containerize the Frontend"];
+        E3 --> E4["4 . Connect Everything with Docker Compose"];
     end
 
     subgraph "Application Components"
