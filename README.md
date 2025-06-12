@@ -16,15 +16,15 @@ The exercises will guide the student through containerizing and connecting the d
 graph TD
     subgraph "Exercise Plan"
         direction LR
-        E1[1. Containerize the Backend] --> E2[2. Add a Database];
-        E2 --> E3[3. Containerize the Frontend];
-        E3 --> E4[4. Connect Everything with Docker Compose];
+        E1["1. Containerize the Backend"] --> E2["2. Add a Database"];
+        E2 --> E3["3. Containerize the Frontend"];
+        E3 --> E4["4. Connect Everything with Docker Compose"];
     end
 
     subgraph "Application Components"
-        Backend[Node.js API]
-        Frontend[HTML/JS App]
-        Database[PostgreSQL]
+        Backend["Node.js API"]
+        Frontend["HTML/JS App"]
+        Database["PostgreSQL"]
     end
 
     E1 --> Backend;
