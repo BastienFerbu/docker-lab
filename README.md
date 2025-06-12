@@ -13,7 +13,7 @@ This document outlines the plan for creating a set of Docker exercises for begin
 The exercises will guide the student through containerizing and connecting the different parts of the application.
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph "Exercise Plan"
         direction LR
         E1["1. Containerize the Backend"] --> E2["2. Add a Database"];
